@@ -1,22 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet  - Make the alphabet
  *
- * Return: void
+ * Return:void
  */
-void _putchar(char c) {
-    putchar(c);
-}
 
-void print_alphabet(void) {
-    for (char c = 'a'; c <= 'z'; c++) {
-        _putchar(c);
-    }
-    _putchar('\n');
+void print_alphabet(void)
+{
+char  ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
+_putchar('\n');
 }
-
-int main() {
-    print_alphabet();
-    return 0;
-}    
